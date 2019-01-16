@@ -132,3 +132,9 @@ Latency distribution:
 Status code distribution:
   [OK]	2221650 responses
 ```
+
+Use h2load to benchmark fastify:
+
+* `h2load --h1 -c 100 -D 40 http://localhost:3000`
+* `h2load -c 100 -D 40 http://localhost:3000`
+
